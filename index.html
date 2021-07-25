@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+
+    <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #8c8c8c;
+
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Add padding to containers */
+    .container {
+      padding: 16px;
+      background-color: white;
+    }
+
+    /* Full-width input fields */
+    input[type=text], input[type=password], input[type=number], input[type=email], input[type=roll], input[type=textbox] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+
+    /* Overwrite default styles of hr */
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+
+    .pbox{
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+
+    /* Set a style for the submit button */
+    .registerbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+      border-radius: 50px;
+      font-size: 50;
+      font-family: vampire wars;
+    }
+
+    .registerbtn:hover {
+      opacity: 1;
+      text-decoration-color: red ;
+      font-size: 25px;
+      font-weight: bolder;
+
+
+    }
+    .table {
+      background-color: white;
+
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: auto;
+      width: auto;
+      opacity: 78%;
+      border-radius: 50px;
+      font-size: 50;
+
+    }
+    .div {
+      background-color: white;
+      width: 100%;
+      height: 1%;
+
+
+
+    }
+
+
+    .roll {
+      background-color: white;
+      color: green;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 50%;
+      opacity: 0.9;
+    }
+    .resetbtn {
+      background-color: red;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+      border-radius: 50px;
+      font-size: 50;
+      font-family: vampire wars;
+    }
+
+    .resetbtn:hover {
+      opacity: 1;
+      text-decoration-color: red ;
+      font-size: 25px;
+      font-weight: bolder;
+
+
+    }
+
+    /* Add a blue text color to links */
+    a {
+      color: dodgerblue;
+    }
+
+    /* Set a grey background color and center the text of the "sign in" section */
+    .signin {
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    .split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+  }
+
+  .left {
+  left: 0;
+
+  }
+
+  .right {
+  right: 0;
+
+  }
+
+  .centered {
+  position: absolute;
+  top: auto;
+  left: auto;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
+  .centered img {
+  width: auto;
+  border-radius: 50%;
+  }
+    </style>
+
+
+
+    <meta charset="utf-8">
+    <title>Whatsapp Messege Sender  </title>
+
+  </head>
+  <body>
+    <center>
+    <table class="table">
+      <form class="" action="https://api.whatsapp.com/send/?" >
+
+      <tr>
+        <td colspan="2"><h1>Enter The Whatsapp Number and Messege</h1></td>
+      </tr>
+      <tr>
+        <th>Enter Reciever Whatsapp Number</th>
+        <td><input type="text" name="phone" id="phone" value="91" placeholder="Enter the 12 digit receiver mobile number without +"></td>
+      </tr>
+      <tr>
+        <th>Enter Message</th>
+        <td><textarea type="text" value="Hai" name="text" class="pbox" cols="50" rows="10"></textarea></td>
+      </tr>
+
+      <tr>
+        <td><input type="reset" name="" value="Reset" class="resetbtn"></td>
+        <td><input type="submit" name="" value="S e n d" class="registerbtn"></td>
+      </tr>
+
+
+    </form>
+
+    </table>
+
+  </center>
+  </body>
+</html>
+© 2021 G4Media, Inc.
